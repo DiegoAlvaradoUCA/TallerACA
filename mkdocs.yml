@@ -1,0 +1,17 @@
+site_name: Documentación Técnica - Taller ACA
+theme:
+  name: material
+  features:
+    - content.code.annotate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Inicio: index.md
+  - Guía de Instalación: instalacion.md
+  - Características: caracteristicas.md
